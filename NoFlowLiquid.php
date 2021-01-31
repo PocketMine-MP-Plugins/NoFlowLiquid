@@ -26,9 +26,7 @@ class NoFlowLiquid extends PluginBase implements Listener
 
 	public function onEnable () : void
 	{
-
 		Server::getInstance()->getPluginManager()->registerEvents ($this, $this);
-
 	}
 
 	public function onSpread(BlockSpreadEvent $event) : void
